@@ -8,7 +8,7 @@ const App = () => {
   return (
     <>
     <Routes>
-      <Route path = '/' element={<Login/>}/>
+      <Route path = '/messaging-application' element={<Login/>}/>
       <Route path = "/chat" element={<Chat/>}/>
       <Route path = "/profile" element={<ProfileUpdate/>}/>
     </Routes>
